@@ -1,0 +1,12 @@
+  
+<mat-toolbar color="primary" class="navbar">
+  <a class="logo" [routerLink]="'/'" > <h1 class="headline" >FANU BLOG</h1></a>
+  <mat-menu #appMenu="matMenu">
+      <a mat-menu-item [routerLink]="'/'">Articles</a>    
+      <a mat-menu-item [routerLink]="'/content/poems'">Poems</a>
+      <a mat-menu-item [routerLink]="'/content/aboutme'">About me</a>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="appMenu" class="menu">
+          <mat-icon>menu</mat-icon>
+    </button>
+</mat-toolbar>

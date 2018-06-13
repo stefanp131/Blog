@@ -1,0 +1,20 @@
+.container {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    z-index: 1;
+}
+
+.bg {
+    background-image: url("../assets/background.jpg");
+    background-position: center center;
+  
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+  
+    background-size: cover;
+  
+    background-color: #464646;
+    min-height: 1200px;
+}

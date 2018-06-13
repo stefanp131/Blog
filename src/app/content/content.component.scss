@@ -1,0 +1,52 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import '~@angular/material/theming';
+
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Montserrat, sans-serif',
+  $headline: mat-typography-level(32px, 48px, 700),
+  $body-1: mat-typography-level(16px, 24px, 500)
+);
+
+
+// Override typography CSS classes (e.g., mat-h1, mat-display-1, mat-typography, etc.).
+@include mat-base-typography($custom-typography);
+
+// Override typography for a specific Angular Material components.
+@include mat-button-typography($custom-typography);
+@include mat-toolbar-typography($custom-typography);
+
+
+// Override typography for all Angular Material, including mat-base-typography and all components.
+@include angular-material-typography($custom-typography);
+
+.justify{
+  text-align: justify
+}
+
+.image-rounded {
+  border-radius:50%; 
+  display: block; 
+  margin: 0 auto;
+}
+
+.image-bordered {
+  border-radius:20%; 
+  display: block; 
+  margin: 0 auto;
+}
+.image {
+  display: block; 
+  margin: 0 auto;
+}
+
+.image-max {
+  display:block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.opaque{
+  opacity: 0.8;
+}

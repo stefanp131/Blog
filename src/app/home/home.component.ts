@@ -16,11 +16,11 @@ export class HomeComponent implements OnInit {
         title: `World's puzzle`,
         flavour: 'Pastila de Vineri, 08.06.2018'
       },
-      {
+      /* {
         title: 'The wireless network , the collective consciousness, love and human relationships',
         // tslint:disable-next-line:max-line-length
         flavour: 'If we want to move forward as a humanity we must be aware of the collective consciousness. In the previous chapter I was asserting that space connects us all. Well, it does. We are interconnected. We are connected through space…'
-      },
+      }, */
       {
         title: 'A fi sau a nu fi filozof? Aceasta e întrebarea!',
         // tslint:disable-next-line:max-line-length
